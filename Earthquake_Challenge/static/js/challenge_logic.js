@@ -43,8 +43,8 @@ let majorEarthquakes = new L.LayerGroup();
 
 // 2. Add a reference to the major earthquake group to the overlays object.
 let overlays = {
-  "Earthquakes": allEarthquakes,
   "Tectonic Plates": tectonicPlates,
+  "Earthquakes": allEarthquakes,
   "Major Earthquakes": majorEarthquakes
 };
 
